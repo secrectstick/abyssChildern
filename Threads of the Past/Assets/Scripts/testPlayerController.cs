@@ -57,10 +57,10 @@ public class testPlayerController : MonoBehaviour
 
     void CheckGround()
     {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 10f);
-        Debug.DrawRay(transform.position, -Vector2.up * 1000, Color.red);
+        // RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 10f);
+        // Debug.DrawRay(transform.position, -Vector2.up * 1000, Color.red);
 
-        if(hit)
+        if(rBody.velocity.y == 0)
         {
             isGrounded = true;
         }

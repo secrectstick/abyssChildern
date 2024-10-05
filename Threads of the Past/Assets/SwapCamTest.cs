@@ -33,7 +33,7 @@ public class SwapCamTest : MonoBehaviour
         {
             followScript.objToFollow = FuturePlayer;
         }
-        PM.age = PlayerManager.AgeState.child;
+        PM.age = PlayerManager.AgeState.adult;
     }
 
     public void SwapPast(InputAction.CallbackContext context)
@@ -43,7 +43,7 @@ public class SwapCamTest : MonoBehaviour
         {
             followScript.objToFollow = PrevPlayer;
         }
-        PM.age = PlayerManager.AgeState.adult;
+        PM.age = PlayerManager.AgeState.child;
     }
 
 }
