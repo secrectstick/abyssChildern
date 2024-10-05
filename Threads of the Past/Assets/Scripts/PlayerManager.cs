@@ -21,6 +21,10 @@ public class PlayerManager : MonoBehaviour
     public testPlayerController AdultControl;
     public testPlayerController ChildControl;
 
+    public bool adultOnDoor;
+    public bool childOnDoor;
+
+
     public GameObject playerBody;
 
     [SerializeField]
@@ -49,6 +53,8 @@ public class PlayerManager : MonoBehaviour
     {
         inPast = false;
         age = AgeState.adult;
+        adultOnDoor = false;
+        childOnDoor = false;
     }
 
     // Update is called once per frame

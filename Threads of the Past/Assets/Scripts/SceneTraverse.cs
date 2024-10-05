@@ -8,7 +8,9 @@ public class SceneTraverse : MonoBehaviour
 
     public int CurrentSceneIndex;
     public int NextSceneIndex;
-    public GameObject player;
+    public GameObject Adult;
+    public GameObject Child;
+    public PlayerManager PM;
 
     // Start is called before the first frame update
     void Start()
@@ -27,7 +29,30 @@ public class SceneTraverse : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        SceneManager.LoadScene(NextSceneIndex);
+        if (collision.gameObject == Adult)
+        {
+            PM.adultOnDoor = true;
+        }
+        if (collision.gameObject == Child)
+        {
+            PM.childOnDoor = true;
+        }
+
+
+        if (PM.adultOnDoor && PM.childOnDoor)
+        {
+            SceneManager.LoadScene(NextSceneIndex);
+        }
+        if (!PM.adultOnDoor && PM.childOnDoor)
+        {
+            PM.age = PlayerManager.AgeState.adult;
+        }
+        if (PM.adultOnDoor && !PM.childOnDoor)
+        {
+            PM.age = PlayerManager.AgeState.child;
+        }
+
+
     }
 
 }
