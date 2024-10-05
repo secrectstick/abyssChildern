@@ -23,14 +23,14 @@ public class testPlayerController : MonoBehaviour
     void Update()
     {
         CheckGround();
-        transform.position += (moveSpeed.normalized * moveMult) / 1000;
+        if (IsActive)
+            transform.position += (moveSpeed.normalized * moveMult) / 1000;
     }
 
     public void MovePlayer(InputAction.CallbackContext context)
     {
-        if (IsActive)
-        {
-            if (context.performed)
+
+            if (context.performed && IsActive)
             {
                 moveSpeed = context.ReadValue<Vector2>();
             }
@@ -38,7 +38,6 @@ public class testPlayerController : MonoBehaviour
             {
                 moveSpeed = new Vector3(0, 0, 0);
             }
-        }
         
     }
 
