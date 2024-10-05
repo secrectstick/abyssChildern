@@ -1,17 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class ParticleManagerTest : MonoBehaviour
 {
     private ParticleSystem trailParticles;
-    bool 
+   
     // Start is called before the first frame update
     void Start()
     {
         trailParticles = GetComponentInChildren<ParticleSystem>();
 
-        trailParticles.Stop()
+        trailParticles.Stop();
     }
 
     // Update is called once per frame
