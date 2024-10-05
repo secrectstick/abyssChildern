@@ -6,13 +6,14 @@
     "activeFile": "testMap.tmx",
     "expandedProjectPaths": [
     ],
+    "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "Rules/testTileRules.tmx": {
             "scale": 1,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 512.5,
-                "y": 256
+                "x": 512,
+                "y": 256.5
             }
         },
         "TempTileset.tsx": {
@@ -23,15 +24,33 @@
             "scale": 0.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 577,
-                "y": 256
+                "x": 508,
+                "y": 255
+            }
+        },
+        "tutFut.tmx": {
+            "scale": 0.25,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 968,
+                "y": 582
+            }
+        },
+        "tutPast.tmx": {
+            "scale": 0.25,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 896,
+                "y": 974
             }
         }
     },
-    "last.imagePath": "C:/Users/serna/Downloads",
+    "last.imagePath": "C:/Users/serna/OneDrive/Desktop/abyssChildern/Threads of the Past/Assets/Maps",
     "map.height": 16,
     "map.lastUsedFormat": "tmx",
     "map.layerDataFormat": null,
+    "map.tileHeight": 80,
+    "map.tileWidth": 80,
     "map.width": 32,
     "openFiles": [
         "TempTileset.tsx",
@@ -44,5 +63,9 @@
         "Rules/testTileRules.tmx",
         "testMap.tmx"
     ],
-    "tileset.lastUsedFormat": "tsx"
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 80,
+        "width": 80
+    }
 }
