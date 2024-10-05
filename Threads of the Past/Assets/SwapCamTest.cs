@@ -10,10 +10,13 @@ public class SwapCamTest : MonoBehaviour
     public GameObject FuturePlayer;
     public Follow followScript;
 
+    public PlayerManager PM;
+
     // Start is called before the first frame update
     void Start()
     {
         //followScript.objToFollow = PrevPlayer;
+        
     }
 
     // Update is called once per frame
@@ -30,6 +33,7 @@ public class SwapCamTest : MonoBehaviour
         {
             followScript.objToFollow = FuturePlayer;
         }
+        PM.age = PlayerManager.AgeState.child;
     }
 
     public void SwapPast(InputAction.CallbackContext context)
@@ -38,6 +42,8 @@ public class SwapCamTest : MonoBehaviour
         if (context.phase == InputActionPhase.Performed)
         {
             followScript.objToFollow = PrevPlayer;
-        }   
+        }
+        PM.age = PlayerManager.AgeState.adult;
     }
+
 }
