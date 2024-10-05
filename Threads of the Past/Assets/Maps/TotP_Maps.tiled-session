@@ -13,27 +13,43 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 512,
-                "y": 256.5
+                "y": 256
             }
         },
         "TempTileset.tsx": {
             "scaleInDock": 0.75,
             "scaleInEditor": 2
         },
+        "puzz2Fut.tmx": {
+            "scale": 0.53326171875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1280.7969820166284,
+                "y": 639.4608651063985
+            }
+        },
+        "puzz2Past.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1208,
+                "y": 676
+            }
+        },
         "testMap.tmx": {
             "scale": 0.5,
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 508,
-                "y": 255
+                "y": 254
             }
         },
         "tutFut.tmx": {
-            "scale": 0.25,
+            "scale": 0.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 968,
-                "y": 582
+                "x": 1234,
+                "y": 1032
             }
         },
         "tutPast.tmx": {
@@ -48,7 +64,7 @@
     "last.imagePath": "C:/Users/serna/OneDrive/Desktop/abyssChildern/Threads of the Past/Assets/Maps",
     "map.height": 16,
     "map.lastUsedFormat": "tmx",
-    "map.layerDataFormat": null,
+    "map.layerDataFormat": "5",
     "map.tileHeight": 80,
     "map.tileWidth": 80,
     "map.width": 32,
@@ -60,8 +76,9 @@
     "project": "TotP_Maps.tiled-project",
     "recentFiles": [
         "TempTileset.tsx",
+        "testMap.tmx",
         "Rules/testTileRules.tmx",
-        "testMap.tmx"
+        "tutFut.tmx"
     ],
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
