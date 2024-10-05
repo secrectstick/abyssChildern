@@ -1,0 +1,48 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "testMap.tmx",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "Rules/testTileRules.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 808,
+                "y": 374.5
+            }
+        },
+        "TempTileset.tsx": {
+            "scaleInDock": 0.75,
+            "scaleInEditor": 2
+        },
+        "testMap.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 560,
+                "y": 499
+            }
+        }
+    },
+    "last.imagePath": "C:/Users/serna/Downloads",
+    "map.height": 16,
+    "map.lastUsedFormat": "tmx",
+    "map.layerDataFormat": null,
+    "map.width": 32,
+    "openFiles": [
+        "TempTileset.tsx",
+        "testMap.tmx",
+        "Rules/testTileRules.tmx"
+    ],
+    "project": "TotP_Maps.tiled-project",
+    "recentFiles": [
+        "TempTileset.tsx",
+        "Rules/testTileRules.tmx",
+        "testMap.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx"
+}
