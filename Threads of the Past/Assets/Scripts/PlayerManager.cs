@@ -18,6 +18,8 @@ public class PlayerManager : MonoBehaviour
         adult
     }
 
+    public testPlayerController AdultControl;
+    public testPlayerController ChildControl;
 
     public GameObject playerBody;
 
@@ -67,9 +69,13 @@ public class PlayerManager : MonoBehaviour
         {
             case AgeState.adult:
                 playerObject.sprite = adultSprite.sprite;
+                AdultControl.IsActive = true;
+                ChildControl.IsActive = false;
                 break;
             case AgeState.child:
                 playerObject.sprite = childSprite.sprite;
+                AdultControl.IsActive = false;
+                ChildControl.IsActive = true;
                 break;
         }
     }

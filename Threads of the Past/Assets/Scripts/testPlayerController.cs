@@ -9,37 +9,48 @@ public class testPlayerController : MonoBehaviour
     public float moveMult;
     public int jumpSpeed;
     Rigidbody2D rBody;
+    public bool IsActive;
 
     // Start is called before the first frame update
     void Start()
     {
         rBody = GetComponent<Rigidbody2D>();
+        IsActive = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+
         transform.position += (moveSpeed.normalized * moveMult) / 1000;
     }
 
     public void MovePlayer(InputAction.CallbackContext context)
     {
-        if (context.performed)
+        if (IsActive)
         {
-            moveSpeed = context.ReadValue<Vector2>();
+            if (context.performed)
+            {
+                moveSpeed = context.ReadValue<Vector2>();
+            }
+            else
+            {
+                moveSpeed = new Vector3(0, 0, 0);
+            }
         }
-        else
-        {
-            moveSpeed = new Vector3(0,0,0);
-        }
+        
     }
 
     public void PlayerJump(InputAction.CallbackContext context)
     {
-        if (context.performed)
+        if (IsActive)
         {
-            jumpVect = Vector3.up * jumpSpeed*25;
-            rBody.AddForce(jumpVect);
+            if (context.performed)
+            {
+                jumpVect = Vector3.up * jumpSpeed * 25;
+                rBody.AddForce(jumpVect);
+            }
         }
+        
     }
 }
