@@ -11,8 +11,8 @@
             "scale": 1,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 808,
-                "y": 374.5
+                "x": 512.5,
+                "y": 256
             }
         },
         "TempTileset.tsx": {
@@ -23,8 +23,8 @@
             "scale": 0.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 560,
-                "y": 499
+                "x": 577,
+                "y": 256
             }
         }
     },
