@@ -10,6 +10,7 @@ public class testPlayerController : MonoBehaviour
     public int jumpSpeed;
     Rigidbody2D rBody;
     public bool IsActive;
+    public bool isGrounded;
 
     // Start is called before the first frame update
     void Start()
@@ -21,7 +22,7 @@ public class testPlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        CheckGround();
         transform.position += (moveSpeed.normalized * moveMult) / 1000;
     }
 
@@ -45,12 +46,27 @@ public class testPlayerController : MonoBehaviour
     {
         if (IsActive)
         {
-            if (context.performed)
+            if (context.performed && isGrounded)
             {
                 jumpVect = Vector3.up * jumpSpeed * 25;
                 rBody.AddForce(jumpVect);
             }
         }
         
+    }
+
+    void CheckGround()
+    {
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, 10f);
+        Debug.DrawRay(transform.position, -Vector2.up * 1000, Color.red);
+
+        if(hit)
+        {
+            isGrounded = true;
+        }
+        else
+        {
+            isGrounded = false;
+        }
     }
 }
