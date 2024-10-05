@@ -1,11 +1,26 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
+
+
+
 public class PlayerManager : MonoBehaviour
 {
     //FIELDS
+
+    public enum AgeState
+    {
+        child,
+        adult
+    }
+
+
+    public GameObject playerBody;
+
     [SerializeField]
     private SpriteRenderer playerObject;
 
@@ -23,12 +38,15 @@ public class PlayerManager : MonoBehaviour
 
     private bool inPast;
 
+    public AgeState age;
+
     //pass a ref to the controller script?
 
     // Start is called before the first frame update
     void Start()
     {
         inPast = false;
+        age = AgeState.adult;
     }
 
     // Update is called once per frame
@@ -43,6 +61,16 @@ public class PlayerManager : MonoBehaviour
         else
         {
             playerObject.sprite = adultSprite.sprite;
+        }
+
+        switch (age)
+        {
+            case AgeState.adult:
+                playerObject.sprite = adultSprite.sprite;
+                break;
+            case AgeState.child:
+                playerObject.sprite = childSprite.sprite;
+                break;
         }
     }
 
