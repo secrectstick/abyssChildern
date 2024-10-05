@@ -427,7 +427,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5670389313899735502, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1340656704}
   m_SourcePrefab: {fileID: 100100000, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
 --- !u!1 &740292575
 GameObject:
@@ -545,7 +548,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4a5beeb48b7f8840b9c144aff6b22a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveMult: 1
+  moveMult: 5
   jumpSpeed: 10
   IsActive: 0
   isGrounded: 0
@@ -689,6 +692,26 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1340656699 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5670389313899735502, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
+  m_PrefabInstance: {fileID: 422632766}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1340656704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340656699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99a536f054c2e23479ffa7561d1d2e72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentSceneIndex: 0
+  NextSceneIndex: 0
+  player: {fileID: 929498614}
 --- !u!1 &1461713267
 GameObject:
   m_ObjectHideFlags: 0

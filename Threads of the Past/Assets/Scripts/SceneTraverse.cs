@@ -23,9 +23,11 @@ public class SceneTraverse : MonoBehaviour
         {
             SceneManager.LoadScene(CurrentSceneIndex);
         }
-
-
-
-
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        SceneManager.LoadScene(NextSceneIndex);
+    }
+
 }
