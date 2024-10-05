@@ -154,8 +154,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4a5beeb48b7f8840b9c144aff6b22a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveMult: 1
-  jumpSpeed: 5
+  moveMult: 2
+  jumpSpeed: 10
 --- !u!212 &102586042
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -533,6 +533,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: d4df6c7d-4401-4689-ab1f-7a57272012b1
     m_ActionName: Player/Movement[/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 102586041}
+        m_TargetAssemblyTypeName: testPlayerController, Assembly-CSharp
+        m_MethodName: PlayerJump
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: ecd980e1-d67d-45b5-a0bc-66fa45134936
+    m_ActionName: Player/Jump[/Keyboard/space]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player

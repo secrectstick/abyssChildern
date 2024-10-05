@@ -8,11 +8,12 @@ public class testPlayerController : MonoBehaviour
     Vector3 jumpVect;
     public float moveMult;
     public int jumpSpeed;
+    Rigidbody2D rBody;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        rBody = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
@@ -37,7 +38,8 @@ public class testPlayerController : MonoBehaviour
     {
         if (context.performed)
         {
-            jumpVect = context.ReadValue<Vector2>();
+            jumpVect = Vector3.up * jumpSpeed*25;
+            rBody.AddForce(jumpVect);
         }
     }
 }
