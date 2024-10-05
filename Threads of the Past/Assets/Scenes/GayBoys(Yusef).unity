@@ -350,6 +350,38 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: ecd980e1-d67d-45b5-a0bc-66fa45134936
     m_ActionName: Player/Jump[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 801599626}
+        m_TargetAssemblyTypeName: SwapCamTest, Assembly-CSharp
+        m_MethodName: SwapPast
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: d78c1b08-4bb5-474d-85d8-707d7e91b5ff
+    m_ActionName: Player/New action
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 801599626}
+        m_TargetAssemblyTypeName: SwapCamTest, Assembly-CSharp
+        m_MethodName: SwapPres
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: cbb761a5-186f-4922-aeba-595b882ad3c7
+    m_ActionName: Player/New action
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: Keyboard&Mouse
   m_DefaultActionMap: Player
