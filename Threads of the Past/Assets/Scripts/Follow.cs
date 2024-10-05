@@ -15,6 +15,6 @@ public class Follow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = objToFollow.transform.position;  // make this copy-alter-replace
+        transform.position = objToFollow.transform.position;  // make this copy-alter-replace if this does not work
     }
 }
