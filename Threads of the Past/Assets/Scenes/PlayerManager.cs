@@ -23,6 +23,8 @@ public class PlayerManager : MonoBehaviour
 
     private bool inPast;
 
+    //pass a ref to the controller script?
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,9 +34,11 @@ public class PlayerManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // make an FSM for child and adult states via enum?
         if (inPast == true)
         {
             playerObject.sprite = childSprite.sprite;
+            
         }
         else
         {
