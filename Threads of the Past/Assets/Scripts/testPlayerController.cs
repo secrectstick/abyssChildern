@@ -12,6 +12,10 @@ public class testPlayerController : MonoBehaviour
     public bool IsActive;
     public bool isGrounded;
 
+    public float jumpBufferTime = 0.2f;
+    private float jumpBufferCounter;
+    private bool jumpBufferCounting;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +26,20 @@ public class testPlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (jumpBufferCounting)
+        {
+            jumpBufferCounter -= Time.deltaTime;
+        }
+
+        if (isGrounded && jumpBufferCounter > 0f)
+        {
+            jumpVect = Vector3.up * jumpSpeed * 25;
+            rBody.AddForce(jumpVect);
+
+            jumpBufferCounter = 0f;
+            jumpBufferCounting = false;
+        }
+
         CheckGround();
         if (IsActive)
             transform.position += (moveSpeed.normalized * moveMult) / 1000;
@@ -45,11 +63,13 @@ public class testPlayerController : MonoBehaviour
     {
         if (IsActive)
         {
-            if (context.performed && isGrounded)
+            if (context.performed)
             {
-                jumpVect = Vector3.up * jumpSpeed * 25;
-                rBody.AddForce(jumpVect);
+                jumpBufferCounter = jumpBufferTime;
+                jumpBufferCounting = true;
             }
+
+            
         }
         
     }
