@@ -878,6 +878,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1318277923026666605, guid: 352efcd681e0b2d49ab6f11c23ad68b8, type: 3}
+      propertyPath: m_text
+      value: 'CONTROLS:
+
+        A - Move Left
+
+        D - Move Right
+
+        Space
+        - Jump
+
+        V - Go to the Past
+
+        B - Go to the Present'
+      objectReference: {fileID: 0}
     - target: {fileID: 1396533990657915320, guid: 352efcd681e0b2d49ab6f11c23ad68b8, type: 3}
       propertyPath: m_IsActive
       value: 0
