@@ -11,16 +11,21 @@ public class testPlayerController : MonoBehaviour
     Rigidbody2D rBody;
     public bool IsActive;
     public bool isGrounded;
+    private bool isMoving;
 
     public float jumpBufferTime = 0.2f;
     private float jumpBufferCounter;
     private bool jumpBufferCounting;
+
+    private Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
         rBody = GetComponent<Rigidbody2D>();
         IsActive = false;
+
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -40,6 +45,9 @@ public class testPlayerController : MonoBehaviour
             jumpBufferCounting = false;
         }
 
+        animator.SetBool("IsGrounded", isGrounded);
+        animator.SetBool("IsMoving", isMoving);
+
         CheckGround();
         if (IsActive)
             transform.position += (moveSpeed.normalized * moveMult) / 1000;
@@ -47,16 +55,27 @@ public class testPlayerController : MonoBehaviour
 
     public void MovePlayer(InputAction.CallbackContext context)
     {
- 
-            if (context.performed && IsActive && Time.timeScale == 1f)
+
+        if (context.performed && IsActive && Time.timeScale == 1f)
+        {
+            moveSpeed = context.ReadValue<Vector2>();
+            isMoving = true;
+
+            if (moveSpeed.x < 0)
             {
-                moveSpeed = context.ReadValue<Vector2>();
+                gameObject.GetComponent<SpriteRenderer>().flipX = true;
             }
-            else
+
+            if (moveSpeed.x > 0)
             {
+                gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            }
+        }
+        else
+        {
             moveSpeed = new Vector3(0, 0, 0);
-            }
-        
+            isMoving = false;
+        }
     }
 
     public void PlayerJump(InputAction.CallbackContext context)

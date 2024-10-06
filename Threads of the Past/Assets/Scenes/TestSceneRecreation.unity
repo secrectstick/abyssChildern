@@ -154,6 +154,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AdultControl: {fileID: 929498615}
   ChildControl: {fileID: 345711712}
+  adultOnDoor: 0
+  childOnDoor: 0
   playerBody: {fileID: 345711711}
   playerObject: {fileID: 345711713}
   childCollider: {fileID: 345711716}
@@ -205,6 +207,7 @@ GameObject:
   - component: {fileID: 345711712}
   - component: {fileID: 345711716}
   - component: {fileID: 345711715}
+  - component: {fileID: 345711717}
   m_Layer: 0
   m_Name: P_Past
   m_TagString: Untagged
@@ -368,6 +371,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!95 &345711717
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 345711711}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 43df80ff1b8639f4fbf68b9b5b820a3c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &422632766
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -529,6 +553,7 @@ GameObject:
   - component: {fileID: 929498615}
   - component: {fileID: 929498619}
   - component: {fileID: 929498618}
+  - component: {fileID: 929498620}
   m_Layer: 0
   m_Name: P_Future
   m_TagString: Untagged
@@ -692,6 +717,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!95 &929498620
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929498614}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d0ce9b7426844c540a5fcc49f6a47d68, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1340656699 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5670389313899735502, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
@@ -711,7 +757,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentSceneIndex: 0
   NextSceneIndex: 0
-  player: {fileID: 929498614}
+  Adult: {fileID: 0}
+  Child: {fileID: 0}
+  PM: {fileID: 0}
 --- !u!1 &1461713267
 GameObject:
   m_ObjectHideFlags: 0
