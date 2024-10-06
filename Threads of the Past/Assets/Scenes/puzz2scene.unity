@@ -213,6 +213,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: child
       objectReference: {fileID: 0}
+    - target: {fileID: 3758862914232691953, guid: 33e1a07bd70eada4da8fac671aea6d65, type: 3}
+      propertyPath: jumpSpeed
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 6612866423334534430, guid: 33e1a07bd70eada4da8fac671aea6d65, type: 3}
       propertyPath: m_LocalPosition.x
       value: 41.5025
@@ -2373,6 +2377,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1512539702531254154, guid: b4860f3de28e7e047b6e82af557abb3f, type: 3}
+      propertyPath: jumpSpeed
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 1521793849678818140, guid: b4860f3de28e7e047b6e82af557abb3f, type: 3}
       propertyPath: m_Name
       value: adult
