@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TestSceneRecreation.unity
     guid: 0e21d2e1df5c86a48a4086de1a370bfd
   - enabled: 1
@@ -17,4 +17,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TutorialScene.unity
     guid: 0fd2b74af216a17429af770ba92e4605
+  - enabled: 1
+    path: Assets/Scenes/puzz1Scene.unity
+    guid: 66e793eacc794cf4e944de0d36371855
+  - enabled: 1
+    path: Assets/Scenes/puzz2scene.unity
+    guid: 1aecddf07055ff847add3276fd4c3ca7
+  - enabled: 1
+    path: Assets/Scenes/puzz3Scene.unity
+    guid: 9e1e4f472cb00f241b7399c4797f9796
+  - enabled: 1
+    path: Assets/Scenes/End1Scene.unity
+    guid: 9dcc3091a70dd594bae771166d0e1010
+  - enabled: 1
+    path: Assets/Scenes/End2Scene.unity
+    guid: 7b4348a6e988cf94eb2f42d023d0ad15
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 62f7d7315492c3148b3b0a2dda73c730
   m_configObjects: {}
