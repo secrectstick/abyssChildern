@@ -54,7 +54,7 @@ public class testPlayerController : MonoBehaviour
             }
             else
             {
-                moveSpeed = new Vector3(0, 0, 0);
+            moveSpeed = new Vector3(0, 0, 0);
             }
         
     }
