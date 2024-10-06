@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "puzz1Past.tmx",
+    "activeFile": "testMap.tmx",
     "expandedProjectPaths": [
         ".",
         "Rules"
@@ -22,6 +22,22 @@
             "scaleInDock": 0.75,
             "scaleInEditor": 2
         },
+        "endPast.tsx": {
+            "scaleInDock": 0.125,
+            "scaleInEditor": 0.33
+        },
+        "endPresent.tsx": {
+            "scaleInDock": 0.125,
+            "scaleInEditor": 0.25
+        },
+        "homeFut.tmx": {
+            "scale": 0.2248828125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1280.6670140698282,
+                "y": 642.5568872676743
+            }
+        },
         "mainTileset.tsx": {
             "scaleInDock": 0.33
         },
@@ -29,16 +45,16 @@
             "scale": 0.53326171875,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 1280.7969820166284,
-                "y": 639.4608651063985
+                "x": 1278.9217302127972,
+                "y": 640.3984910083142
             }
         },
         "puzz2Fut.tmx": {
-            "scale": 0.53326171875,
+            "scale": 0.125,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 1280.7969820166284,
-                "y": 639.4608651063985
+                "x": 1488,
+                "y": 1860
             }
         },
         "puzz2Past.tmx": {
@@ -46,7 +62,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 1280,
-                "y": 638
+                "y": 639
             }
         },
         "testMap.tmx": {
@@ -54,7 +70,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 508,
-                "y": 254
+                "y": 255
             }
         },
         "tutFut.tmx": {
@@ -77,22 +93,26 @@
     "last.imagePath": "C:/Users/serna/OneDrive/Desktop/abyssChildern/Threads of the Past/Assets/Maps",
     "map.height": 16,
     "map.lastUsedFormat": "tmx",
-    "map.layerDataFormat": "5",
+    "map.layerDataFormat": null,
     "map.tileHeight": 80,
     "map.tileWidth": 80,
     "map.width": 32,
     "openFiles": [
         "puzz2Past.tmx",
         "puzz2Fut.tmx",
-        "puzz1Past.tmx"
+        "puzz1Past.tmx",
+        "testMap.tmx"
     ],
     "project": "TotP_Maps.tiled-project",
     "recentFiles": [
+        "endPast.tsx",
+        "endPresent.tsx",
+        "homeFut.tmx",
         "puzz2Past.tmx",
         "puzz2Fut.tmx",
         "puzz1Past.tmx",
-        "TempTileset.tsx",
         "testMap.tmx",
+        "TempTileset.tsx",
         "Rules/testTileRules.tmx",
         "tutFut.tmx"
     ],
