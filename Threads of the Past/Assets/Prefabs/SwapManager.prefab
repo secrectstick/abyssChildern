@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7136444759591263453
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3450915703828588303}
+  - component: {fileID: 3051159075640426720}
+  - component: {fileID: 8630790287391086241}
+  m_Layer: 0
+  m_Name: SwapManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3450915703828588303
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7136444759591263453}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 50.553528, y: -8.231607, z: -0.07956146}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3051159075640426720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7136444759591263453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22a4c66b69e50f94babbdbc7d41d00e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrevPlayer: {fileID: 0}
+  FuturePlayer: {fileID: 0}
+  followScript: {fileID: 0}
+  PM: {fileID: 8630790287391086241}
+--- !u!114 &8630790287391086241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7136444759591263453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a6ae1d4c9e84d45b0692cbda72cec4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AdultControl: {fileID: 0}
+  ChildControl: {fileID: 0}
+  adultOnDoor: 0
+  childOnDoor: 0
+  playerBody: {fileID: 0}
+  playerObject: {fileID: 0}
+  childCollider: {fileID: 0}
+  adultCollider: {fileID: 0}
+  childSprite: {fileID: 0}
+  adultSprite: {fileID: 0}
+  age: 0
