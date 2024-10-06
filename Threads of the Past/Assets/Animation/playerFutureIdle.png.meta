@@ -1,0 +1,743 @@
+fileFormatVersion: 2
+guid: a4ab0793fe4ec584ba4f0901ca32cf36
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 400
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: playerFutureIdle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2865
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596e8674cb948f04885fc8cc58cad8b3
+      internalID: -807159608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_1
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 2865
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42999050981e662428c347b96e3b6ef0
+      internalID: -778444519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_2
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 2865
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72710136420a43f41b27f07d9a3c2249
+      internalID: 1619413459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_3
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 2865
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6b5601029a8d1428d67c6a360b69a4
+      internalID: -270196743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_4
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 2865
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2ffd58fe9777345a0bf1c4c05736b1
+      internalID: -1093067401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_5
+      rect:
+        serializedVersion: 2
+        x: 3225
+        y: 2865
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3bf61614aa5764c9a54af1ba2f1bd2
+      internalID: 1507993406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_6
+      rect:
+        serializedVersion: 2
+        x: 3870
+        y: 2865
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b518bddc9288de419f9a6a7699d0c3d
+      internalID: 1308266019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1910
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3623f83f97a6405429435d3d8191257f
+      internalID: 300330236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_8
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 1910
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c920e04494197424284165576327db29
+      internalID: 1778739377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_9
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 1910
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d257daff449ab74fb7ea358d1bdb07c
+      internalID: -1170420924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_10
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1910
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d169bcb1fdf10348a3234b0f72e7d3f
+      internalID: -368397807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_11
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 1910
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f621cb939cc6b1a419b0c0cc17565373
+      internalID: -2034157530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_12
+      rect:
+        serializedVersion: 2
+        x: 3225
+        y: 1910
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56dd21357142c740a3df1af20afde74
+      internalID: -105650188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_13
+      rect:
+        serializedVersion: 2
+        x: 3870
+        y: 1910
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641722f37bed3e7459b3d3fb47965b17
+      internalID: -786561724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 955
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6581eefad59794ebf5f66535926535
+      internalID: 1909107269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_15
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 955
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5f947ac8ed4bd48aa113e3e0daac7b
+      internalID: 1398216580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_16
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 955
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38ade608afc9094ea9364e7b0630496
+      internalID: 1378378503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_17
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 955
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec268f86e05033e4fbeaef9e261f3f40
+      internalID: -1528513639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_18
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 955
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 718c0be054cfe104a9fb5e076072f68f
+      internalID: 1693656858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_19
+      rect:
+        serializedVersion: 2
+        x: 3225
+        y: 955
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7371bad470d22540a549c1bb560b7b3
+      internalID: 1880858724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_20
+      rect:
+        serializedVersion: 2
+        x: 3870
+        y: 955
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4723ffb6655242843af308144fb78cf4
+      internalID: -1098504479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93b56ed35922ca4588f6cf8679a76e4
+      internalID: -615204962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_22
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 0
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf700c84b4a8156479efeea71723de78
+      internalID: 918917926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_23
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 0
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb219e44b12ad3e44be6449c510ecf90
+      internalID: 929532341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_24
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 0
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d892622fff44e7b488938d232a0e25ff
+      internalID: 1760990332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_25
+      rect:
+        serializedVersion: 2
+        x: 2580
+        y: 0
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9baab239e6142c1468412a646508c9c7
+      internalID: 1951382947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_26
+      rect:
+        serializedVersion: 2
+        x: 3225
+        y: 0
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b0664c09d6c5bd46ac87a3dc969e54d
+      internalID: -2047389723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playerFutureIdle_27
+      rect:
+        serializedVersion: 2
+        x: 3870
+        y: 0
+        width: 645
+        height: 955
+      alignment: 9
+      pivot: {x: 0.6, y: 0.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd76c0a03a97f2843af00ed6ded4d5d8
+      internalID: -2043981926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 249cda63ba7a45d429a0491dfa28a15a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      playerFutureIdle_0: -807159608
+      playerFutureIdle_1: -778444519
+      playerFutureIdle_10: -368397807
+      playerFutureIdle_11: -2034157530
+      playerFutureIdle_12: -105650188
+      playerFutureIdle_13: -786561724
+      playerFutureIdle_14: 1909107269
+      playerFutureIdle_15: 1398216580
+      playerFutureIdle_16: 1378378503
+      playerFutureIdle_17: -1528513639
+      playerFutureIdle_18: 1693656858
+      playerFutureIdle_19: 1880858724
+      playerFutureIdle_2: 1619413459
+      playerFutureIdle_20: -1098504479
+      playerFutureIdle_21: -615204962
+      playerFutureIdle_22: 918917926
+      playerFutureIdle_23: 929532341
+      playerFutureIdle_24: 1760990332
+      playerFutureIdle_25: 1951382947
+      playerFutureIdle_26: -2047389723
+      playerFutureIdle_27: -2043981926
+      playerFutureIdle_3: -270196743
+      playerFutureIdle_4: -1093067401
+      playerFutureIdle_5: 1507993406
+      playerFutureIdle_6: 1308266019
+      playerFutureIdle_7: 300330236
+      playerFutureIdle_8: 1778739377
+      playerFutureIdle_9: -1170420924
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
