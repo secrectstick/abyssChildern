@@ -43,11 +43,11 @@ public class SceneTraverse : MonoBehaviour
         {
             SceneManager.LoadScene(NextSceneIndex);
         }
-        if (!PM.adultOnDoor && PM.childOnDoor)
+        if (!PM.childOnDoor)
         {
             PM.age = PlayerManager.AgeState.adult;
         }
-        if (PM.adultOnDoor && !PM.childOnDoor)
+        if (PM.adultOnDoor )
         {
             PM.age = PlayerManager.AgeState.child;
         }
