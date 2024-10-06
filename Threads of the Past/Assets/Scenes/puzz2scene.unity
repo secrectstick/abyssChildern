@@ -1962,11 +1962,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd8aa4846c774a94d8a59517f40c0203, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!20 &1571019046 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 6254322506408697855, guid: 6a8b798418d12c3498d864a6896df7b2, type: 3}
-  m_PrefabInstance: {fileID: 1980843558}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1648665474
 GameObject:
   m_ObjectHideFlags: 0
@@ -2059,57 +2054,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1318277923026666605, guid: 352efcd681e0b2d49ab6f11c23ad68b8, type: 3}
-      propertyPath: m_text
-      value: 'CONTROLS:
-
-        A - Move Left
-
-        D - Move Right
-
-        Space
-        - Jump
-
-        V - Go to the Past
-
-        B - Go to the Present'
-      objectReference: {fileID: 0}
     - target: {fileID: 1396533990657915320, guid: 352efcd681e0b2d49ab6f11c23ad68b8, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1600884073962113101, guid: 352efcd681e0b2d49ab6f11c23ad68b8, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3595928714578728941, guid: 352efcd681e0b2d49ab6f11c23ad68b8, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3595928714578728941, guid: 352efcd681e0b2d49ab6f11c23ad68b8, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3595928714578728941, guid: 352efcd681e0b2d49ab6f11c23ad68b8, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3595928714578728941, guid: 352efcd681e0b2d49ab6f11c23ad68b8, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3595928714578728941, guid: 352efcd681e0b2d49ab6f11c23ad68b8, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3595928714578728941, guid: 352efcd681e0b2d49ab6f11c23ad68b8, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4507104907754728408, guid: 352efcd681e0b2d49ab6f11c23ad68b8, type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 1571019046}
     - target: {fileID: 4538596419768191076, guid: 352efcd681e0b2d49ab6f11c23ad68b8, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.36184
@@ -2150,20 +2098,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4896424106854169476, guid: 352efcd681e0b2d49ab6f11c23ad68b8, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5437409444080595927, guid: 352efcd681e0b2d49ab6f11c23ad68b8, type: 3}
-      propertyPath: m_SortingOrder
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 6475937963754941667, guid: 352efcd681e0b2d49ab6f11c23ad68b8, type: 3}
       propertyPath: m_Name
       value: PauseMenu
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5264693300309965963, guid: 352efcd681e0b2d49ab6f11c23ad68b8, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
