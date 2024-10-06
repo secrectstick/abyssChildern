@@ -214,9 +214,33 @@ PrefabInstance:
       propertyPath: objToActivate
       value: 
       objectReference: {fileID: 1612355183}
+    - target: {fileID: 919336449570287553, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
+      propertyPath: pressedButton
+      value: 
+      objectReference: {fileID: -54820419, guid: 30057b28ab2a0d74e9f31640d40708a0, type: 3}
+    - target: {fileID: 980680168690429774, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1754311102, guid: 30057b28ab2a0d74e9f31640d40708a0, type: 3}
+    - target: {fileID: 980680168690429774, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 980680168690429774, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 980680168690429774, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5670389313899735502, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
       propertyPath: m_Name
       value: Switch (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7629127894895267398, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7629127894895267398, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
       propertyPath: m_LocalPosition.x
@@ -224,7 +248,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7629127894895267398, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.4532237
+      value: -0.25
       objectReference: {fileID: 0}
     - target: {fileID: 7629127894895267398, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
       propertyPath: m_LocalPosition.z
@@ -499,6 +523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objToActivate: {fileID: 730125908}
+  pressedButton: {fileID: -54820419, guid: 30057b28ab2a0d74e9f31640d40708a0, type: 3}
 --- !u!114 &554613330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -512,6 +537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objToActivate: {fileID: 775169794}
+  pressedButton: {fileID: -54820419, guid: 30057b28ab2a0d74e9f31640d40708a0, type: 3}
 --- !u!114 &554613331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -525,6 +551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objToActivate: {fileID: 771275711}
+  pressedButton: {fileID: -54820419, guid: 30057b28ab2a0d74e9f31640d40708a0, type: 3}
 --- !u!114 &575631539 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2740552255117090808, guid: 352efcd681e0b2d49ab6f11c23ad68b8, type: 3}
@@ -1285,20 +1312,28 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 447309125}
     - target: {fileID: 980680168690429774, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 793911169, guid: 30057b28ab2a0d74e9f31640d40708a0, type: 3}
+    - target: {fileID: 980680168690429774, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
       propertyPath: m_Color.b
-      value: 0.07868272
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 980680168690429774, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
       propertyPath: m_Color.g
-      value: 0.96981126
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 980680168690429774, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
       propertyPath: m_Color.r
-      value: 0.24362409
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5670389313899735502, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
       propertyPath: m_Name
       value: Switch (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7629127894895267398, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7629127894895267398, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1306,7 +1341,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7629127894895267398, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.1
+      value: -5.827
       objectReference: {fileID: 0}
     - target: {fileID: 7629127894895267398, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2479,6 +2514,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objToActivate: {fileID: 2136956546}
+  pressedButton: {fileID: -54820419, guid: 30057b28ab2a0d74e9f31640d40708a0, type: 3}
 --- !u!114 &1980843612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2492,6 +2528,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objToActivate: {fileID: 1893497436}
+  pressedButton: {fileID: -54820419, guid: 30057b28ab2a0d74e9f31640d40708a0, type: 3}
 --- !u!114 &1980843614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2505,6 +2542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objToActivate: {fileID: 1919156460}
+  pressedButton: {fileID: -54820419, guid: 30057b28ab2a0d74e9f31640d40708a0, type: 3}
 --- !u!1001 &1988000103
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2517,21 +2555,33 @@ PrefabInstance:
       propertyPath: objToActivate
       value: 
       objectReference: {fileID: 447309125}
+    - target: {fileID: 919336449570287553, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
+      propertyPath: pressedButton
+      value: 
+      objectReference: {fileID: -54820419, guid: 30057b28ab2a0d74e9f31640d40708a0, type: 3}
+    - target: {fileID: 980680168690429774, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1754311102, guid: 30057b28ab2a0d74e9f31640d40708a0, type: 3}
     - target: {fileID: 980680168690429774, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
       propertyPath: m_Color.b
-      value: 0.07868272
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 980680168690429774, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
       propertyPath: m_Color.g
-      value: 0.96981126
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 980680168690429774, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
       propertyPath: m_Color.r
-      value: 0.24362409
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5670389313899735502, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
       propertyPath: m_Name
       value: Switch
+      objectReference: {fileID: 0}
+    - target: {fileID: 7629127894895267398, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7629127894895267398, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2539,7 +2589,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7629127894895267398, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -31.99
+      value: -31.739
       objectReference: {fileID: 0}
     - target: {fileID: 7629127894895267398, guid: 659e04eafdd321c4eb5084c19ea89dca, type: 3}
       propertyPath: m_LocalPosition.z

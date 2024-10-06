@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6d63a4eb053924848b1c619c6906c3f1
+guid: 30057b28ab2a0d74e9f31640d40708a0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 50
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
@@ -110,106 +110,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: playerPastJump_0
+      name: Buttons_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7751a46db379d934f95e85d81651e323
+      internalID: -1754311102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buttons_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2eb281122b87e94fb971d45d22f8a97
+      internalID: -54820419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buttons_2
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 44
+        width: 80
         height: 80
-      alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 705b11c23e21df74d97ac96ad04110af
-      internalID: -1995975924
+      spriteID: 8895111a9afc6d34ea29772f60055b2e
+      internalID: 793911169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: playerPastJump_1
+      name: Buttons_3
       rect:
         serializedVersion: 2
-        x: 44
+        x: 80
         y: 0
-        width: 44
+        width: 80
         height: 80
-      alignment: 9
-      pivot: {x: 0.5, y: 0.4}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 385977375927ef34e88149c7673e384e
-      internalID: 1436415426
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: playerPastJump_2
-      rect:
-        serializedVersion: 2
-        x: 88
-        y: 0
-        width: 44
-        height: 80
-      alignment: 9
-      pivot: {x: 0.5, y: 0.4}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2dbe7dc74129505498cc40135cb8ae99
-      internalID: 921094950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: playerPastJump_3
-      rect:
-        serializedVersion: 2
-        x: 132
-        y: 0
-        width: 44
-        height: 80
-      alignment: 9
-      pivot: {x: 0.5, y: 0.4}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b8ecfd344f64c7468d0810065679158
-      internalID: -1044520367
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: playerPastJump_4
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 0
-        width: 44
-        height: 80
-      alignment: 9
-      pivot: {x: 0.5, y: 0.4}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d44110d7c6f26344d8cf07f87ff138b4
-      internalID: 561209131
+      spriteID: 1c06f6e0079bcb747b8b232e653ff35c
+      internalID: 859972608
       vertices: []
       indices: 
       edges: []
@@ -217,7 +196,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 91a30782eedc23d4b94177e2768061f4
+    spriteID: 3d1736552b46cd14f9ed235566719712
     internalID: 0
     vertices: []
     indices: 
@@ -225,11 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      playerPastJump_0: -1995975924
-      playerPastJump_1: 1436415426
-      playerPastJump_2: 921094950
-      playerPastJump_3: -1044520367
-      playerPastJump_4: 561209131
+      Buttons_0: -1754311102
+      Buttons_1: -54820419
+      Buttons_2: 793911169
+      Buttons_3: 859972608
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

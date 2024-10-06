@@ -5,6 +5,7 @@ using UnityEngine;
 public class switchButton : MonoBehaviour
 {
     public GameObject objToActivate;
+    public Sprite pressedButton;
 
     // Start is called before the first frame update
     void Start()
@@ -21,5 +22,6 @@ public class switchButton : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         objToActivate.SetActive(true);
+        gameObject.GetComponent<SpriteRenderer>().sprite = pressedButton;
     }
 }
