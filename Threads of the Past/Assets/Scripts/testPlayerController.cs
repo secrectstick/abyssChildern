@@ -47,8 +47,8 @@ public class testPlayerController : MonoBehaviour
 
     public void MovePlayer(InputAction.CallbackContext context)
     {
-
-            if (context.performed && IsActive)
+ 
+            if (context.performed && IsActive && Time.timeScale == 1f)
             {
                 moveSpeed = context.ReadValue<Vector2>();
             }
