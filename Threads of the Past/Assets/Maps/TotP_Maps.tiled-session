@@ -5,8 +5,8 @@
     },
     "activeFile": "testMap.tmx",
     "expandedProjectPaths": [
-        ".",
-        "Rules"
+        "Rules",
+        "."
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -31,11 +31,11 @@
             "scaleInEditor": 0.25
         },
         "homeFut.tmx": {
-            "scale": 0.2248828125,
+            "scale": 0.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 1280.6670140698282,
-                "y": 642.5568872676743
+                "x": 325.3333333333333,
+                "y": 554
             }
         },
         "mainTileset.tsx": {
@@ -53,8 +53,8 @@
             "scale": 0.125,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 1488,
-                "y": 1860
+                "x": 1280,
+                "y": 644
             }
         },
         "puzz2Past.tmx": {
@@ -69,7 +69,7 @@
             "scale": 0.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 508,
+                "x": 510,
                 "y": 255
             }
         },
@@ -91,7 +91,7 @@
         }
     },
     "last.imagePath": "C:/Users/serna/OneDrive/Desktop/abyssChildern/Threads of the Past/Assets/Maps",
-    "map.height": 16,
+    "map.height": 12,
     "map.lastUsedFormat": "tmx",
     "map.layerDataFormat": null,
     "map.tileHeight": 80,
@@ -105,13 +105,13 @@
     ],
     "project": "TotP_Maps.tiled-project",
     "recentFiles": [
-        "endPast.tsx",
-        "endPresent.tsx",
-        "homeFut.tmx",
         "puzz2Past.tmx",
         "puzz2Fut.tmx",
         "puzz1Past.tmx",
         "testMap.tmx",
+        "endPast.tsx",
+        "endPresent.tsx",
+        "homeFut.tmx",
         "TempTileset.tsx",
         "Rules/testTileRules.tmx",
         "tutFut.tmx"
