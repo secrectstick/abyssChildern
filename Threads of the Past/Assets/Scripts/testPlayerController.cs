@@ -50,7 +50,7 @@ public class testPlayerController : MonoBehaviour
 
         CheckGround();
         if (IsActive)
-            transform.position += (moveSpeed.normalized * moveMult) / 1000;
+            transform.position += (moveSpeed.normalized * moveMult) / 500;
     }
 
     public void MovePlayer(InputAction.CallbackContext context)
