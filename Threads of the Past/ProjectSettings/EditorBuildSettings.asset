@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TestSceneRecreation.unity
     guid: 0e21d2e1df5c86a48a4086de1a370bfd
+  - enabled: 1
+    path: Assets/Scenes/Title Screen.unity
+    guid: 14caa18f8f4c73548b89d538f7d02f4f
+  - enabled: 1
+    path: Assets/Scenes/TutorialScene.unity
+    guid: 0fd2b74af216a17429af770ba92e4605
   m_configObjects: {}
