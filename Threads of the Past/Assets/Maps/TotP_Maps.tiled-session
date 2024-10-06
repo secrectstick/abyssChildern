@@ -3,8 +3,10 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "testMap.tmx",
+    "activeFile": "puzz1Past.tmx",
     "expandedProjectPaths": [
+        ".",
+        "Rules"
     ],
     "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
@@ -20,6 +22,17 @@
             "scaleInDock": 0.75,
             "scaleInEditor": 2
         },
+        "mainTileset.tsx": {
+            "scaleInDock": 0.33
+        },
+        "puzz1Past.tmx": {
+            "scale": 0.53326171875,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1280.7969820166284,
+                "y": 639.4608651063985
+            }
+        },
         "puzz2Fut.tmx": {
             "scale": 0.53326171875,
             "selectedLayer": 0,
@@ -32,8 +45,8 @@
             "scale": 0.5,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 1208,
-                "y": 676
+                "x": 1280,
+                "y": 638
             }
         },
         "testMap.tmx": {
@@ -69,12 +82,15 @@
     "map.tileWidth": 80,
     "map.width": 32,
     "openFiles": [
-        "TempTileset.tsx",
-        "testMap.tmx",
-        "Rules/testTileRules.tmx"
+        "puzz2Past.tmx",
+        "puzz2Fut.tmx",
+        "puzz1Past.tmx"
     ],
     "project": "TotP_Maps.tiled-project",
     "recentFiles": [
+        "puzz2Past.tmx",
+        "puzz2Fut.tmx",
+        "puzz1Past.tmx",
         "TempTileset.tsx",
         "testMap.tmx",
         "Rules/testTileRules.tmx",
